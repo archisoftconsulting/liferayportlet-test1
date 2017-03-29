@@ -1,6 +1,6 @@
 Bundle-Name: liferay-play-test-web
 Bundle-SymbolicName: my.test
-Bundle-Version: 1.0.15
+Bundle-Version: 1.0.16
 Web-ContextPath: /liferay-play-test-web
 -sources: true
 -jsp: *.jsp,*.jspf

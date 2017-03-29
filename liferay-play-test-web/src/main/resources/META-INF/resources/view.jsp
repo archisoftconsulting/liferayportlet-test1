@@ -12,7 +12,7 @@
 </script>
 
 	<p>
-		<b><liferay-ui:message key="liferay-play-test-web.caption"/> 1.0.15</b>
+		<b><liferay-ui:message key="liferay-play-test-web.caption"/> 1.0.16</b>
 	</p>
 <div ng-app="<portlet:namespace/>demo" ng-controller="<portlet:namespace/>main">
 	
