@@ -4,7 +4,7 @@
  <script>
  	angular.module('<portlet:namespace/>demo', [])
  	.controller("<portlet:namespace/>main", function($scope, $http) {
-		 $http.get('http://localhost:8083/find').
+		 $http.get('http://172.17.0.6:8083/find').
 	        then(function(response) {
 	            $scope.users = response.data;
 	        });
