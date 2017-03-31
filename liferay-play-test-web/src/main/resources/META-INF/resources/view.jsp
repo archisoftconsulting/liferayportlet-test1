@@ -6,6 +6,7 @@
  	.controller("<portlet:namespace/>main", function($scope, $http) {
 		 $http.get('http://playservice/find').
 	        then(function(response) {
+		    console.log('get',response)
 	            $scope.users = response.data;
 	        });
 	    });
