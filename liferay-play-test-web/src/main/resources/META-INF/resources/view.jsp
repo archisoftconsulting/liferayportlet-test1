@@ -4,7 +4,7 @@
  <script>
  	angular.module('<portlet:namespace/>demo', [])
  	.controller("<portlet:namespace/>main", function($scope, $http) {
-		 $http.get('http://playservice/find').
+		 $http.get('http://localhost/find').
 	        then(function(response) {
 		    
 	            $scope.users = response.data;
