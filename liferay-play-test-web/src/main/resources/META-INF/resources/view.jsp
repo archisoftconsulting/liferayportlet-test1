@@ -2,11 +2,10 @@
 
 <script src="/o/liferay-play-test-web/js/angular.js"></script>
  <script>
- 	angular.module('<portlet:namespace/>demo', [])
- 	.controller("<portlet:namespace/>main", function($scope, $http) {
-		 $http.get('http://localhost/find').
-	        then(function(response) {
-		    
+ 	var app = angular.module('<portlet:namespace/>demo', []);
+ 	app.controller("<portlet:namespace/>main", function($scope, $http) {
+		 $http.get('http://localhost/find')
+			 .then(function(response) {
 	            $scope.users = response.data;
 	        });
 	    });
