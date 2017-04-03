@@ -2,6 +2,10 @@
 
 <script src="/o/liferay-play-test-web/js/angular.js"></script>
 
+<p>
+	<b><liferay-ui:message key="liferay-angular-play.caption"/> 1.0.20</b>
+</p>
+
 <div id="<portlet:namespace/>Display">
     <div  ng-controller="<portlet:namespace/>DisplayUser">
     <h1>Users</h1>
