@@ -1,7 +1,7 @@
 angular.module('demo', [])
 .controller('Hello', function($scope, $http) {
-    $http.get('http://rest-service.guides.spring.io/greeting').
+    $http.get('http://172.17.0.4/all').
         then(function(response) {
-            $scope.greeting = response.data;
+            $scope.users = response.data.body;
         });
 });
