@@ -9,12 +9,12 @@
 
 	<body>
 		<div ng-controller="Hello">
-			<tr ng-repeat="user in users">
-		        <td >{{user.userId}}</td>
-		        <td >{{user.firstName}}</td>
-		        <td >{{user.lastName}}</td>
-		        <td >{{user.city}}</td>
-		    </tr>
+			
+		        <td >{{users.userId}}</td>
+		        <td >{{users.firstName}}</td>
+		        <td >{{users.lastName}}</td>
+		        <td >{{users.city}}</td>
+		    
 		</div>
 		
 	</body>
