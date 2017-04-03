@@ -29,7 +29,7 @@
 	 var <portlet:namespace/>Displaymodule = angular.module("<portlet:namespace/>DisplayApp", []);
 	    <portlet:namespace/>Displaymodule.controller("<portlet:namespace/>DisplayUser",
 	    		 function($scope, $http) {
-	    	$http.get('http://localhost:9000/all').
+	    	$http.get('http://172.17.0.4/all').
 	        then(function(response) {
 	            $scope.users = response.data.body;
 	        });
