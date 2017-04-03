@@ -1,6 +1,6 @@
 <%@ include file="/init.jsp" %>
 
-<script src="/o/liferay-play-test-web/js/angular.js"></script>
+<script src="/o/liferay-play-test-web/js/angular.min.js"></script>
 
 <p>
 	<b><liferay-ui:message key="liferay-angular-play.caption"/> 1.0.20</b>
