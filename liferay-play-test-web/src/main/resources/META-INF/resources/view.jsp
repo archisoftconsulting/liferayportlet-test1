@@ -5,10 +5,10 @@
 <div ng-app="demo">
 		<div ng-controller="Hello">
 			
-		        <td >{{users.userId}}</td>
-		        <td >{{users.firstName}}</td>
-		        <td >{{users.lastName}}</td>
-		        <td >{{users.city}}</td>
+		        <p>{{users.userId}}</p>
+		        <p>{{users.firstName}}</p>
+		        <p>{{users.lastName}}</p>
+		        <p>{{users.city}}</p>
 		    
 		</div>
 </div>
