@@ -3,6 +3,6 @@ angular.module('demo', [])
     $http.get('http://localhost/find').
         then(function(response) {
         alert(response.data + '|' + response);
-            $scope.users = response.body;
+            $scope.users = response.data;
         });
 });
